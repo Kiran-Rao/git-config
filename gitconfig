@@ -1,0 +1,14 @@
+[user]
+	name = Kiran Rao
+	email = kiran_rao@outlook.com
+
+
+[alias]
+	hist = log --graph --abbrev-commit --decorate --date=short --format=format:'%C(bold blue)%h%C(reset) %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)%an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	co = checkout
+	ci = commit
+	st = status
+	br = branch 
+	di = diff
+	fu = fetch upstream
+	rum = rebase upstream/master 
