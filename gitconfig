@@ -11,6 +11,6 @@
 	br = branch
 	di = diff
 	fu = fetch upstream --prune
-	fu = fetch --prune
+	fp = fetch --prune
 	rum = rebase upstream/master
 	rud = rebase upstream/develop
