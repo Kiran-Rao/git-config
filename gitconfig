@@ -14,3 +14,4 @@
 	fp = fetch --prune
 	rum = rebase upstream/master
 	rud = rebase upstream/develop
+	git = !exec git
