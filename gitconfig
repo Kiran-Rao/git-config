@@ -15,3 +15,7 @@
 	rum = rebase upstream/master
 	rud = rebase upstream/develop
 	git = !exec git
+
+[core]
+	pager = less -x1,3
+	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w
